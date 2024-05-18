@@ -1,0 +1,49 @@
+*{
+    font-family:"General-Sans";
+}
+
+#heading{
+    opacity: 0;
+    font-size:30px;
+}
+.animation{
+    animation:fade-in 0.5s ease forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity:0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity :1;
+        transform:translateX((0));
+    }
+    
+}
+
+.less-color{
+    background-color:#f6f6f8;
+
+}
+.plans-border{
+
+    border:1px solid black;
+   
+}
+#line-height{
+    line-height: 55px;
+}
+#gift{
+    height:54px;
+    width:54px;
+
+}
+.plans-border:hover{
+    box-shadow:7px 7px 7px 7px rgb(62, 57, 57);
+}
+#chatbox{
+    background-color: #ff7700;
+    color:black;
+    margin-right:40px!important;
+}
