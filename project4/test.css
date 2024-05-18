@@ -1,0 +1,26 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  height: 100vh;
+  width: 100%;
+}
+
+/* you can also do not use the backgrund color */
+#section1 {
+  background-color: black; /* Initial background color for section 1 */
+}
+
+#section2 {
+  background-color: black; /* Initial background color for section 2 */
+}
+
+#section3 {
+  background-color: black; /* Initial background color for section 3 */
+}
+
+#section4 {
+  background-color: black; /* Initial background color for section 4 */
+}

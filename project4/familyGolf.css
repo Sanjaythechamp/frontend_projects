@@ -1,0 +1,166 @@
+
+*{
+    font-family:"General Sans";
+}
+
+.cursor-effect{
+    position:absolute;
+    height:7px;
+    width:7px;
+    border-radius: 50%;
+    z-index: -1;
+    box-shadow: 10px 10px 13px 10px yellow;
+    transition: 0.3s ease-out;
+    background-color: rgb(23, 23, 24);
+}
+
+
+#box{
+height:100vh;
+width:100%;
+display:flex;
+justify-content: center;
+align-items:center;
+opacity:0;
+z-index:9999;
+transition: opacity 4s ease-in-out;
+color:white;
+background-color: black;
+
+}
+
+#box.show{
+    opacity: 1;
+}
+#box h1{
+font-size:2rem;
+align-items:center
+}
+
+
+
+
+:root{
+    --primary-color:black;
+}
+#rocket{
+    padding-right:30px;
+}
+#signin{
+    padding-top:5px;
+    padding-right:4px;
+}
+
+#plans{
+    padding-left: 280px;
+    font-size:24px;
+}
+#domain{
+
+    font-size:24px;
+
+}
+#whyhoster{
+    font-size:24px;
+}
+#website{
+    padding-top:120px;
+    padding-left:84px;
+}
+#image{
+    padding-left:240px;
+ 
+}
+#hero-section{
+    background-color: #dfdfdfd4;
+    height:500px;
+    width:100%;
+}
+#tickicon{
+    height:20px;
+    width:20px;
+    margin-right:12px;
+    padding-top:3px;
+}
+.image-socialMedia{
+    height:20px;
+    width:20px;
+    padding-left:8px;
+   
+  
+}
+#consultant{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    position:absolute;
+    left:83%;
+    bottom:8%;
+}
+#mid-text1{
+    font-size:55px;
+}
+#mid-text2{
+    font-size:35px;
+}
+#textcenter{
+    font-size:44px;
+}
+#hero-section-logo-rocket{
+    height:400px;
+    width:400px;
+}
+
+.review{
+    font-size:30px;
+}
+#img5{
+    padding-left:50px;
+    padding-bottom:40px;
+}
+#automated{
+    padding-top:16px;
+    margin-top:20px;
+    background-color:#fed417c0;
+    padding-left:50px;
+}
+#seeplans{
+    padding-top:130px;
+}
+#cut{
+    padding-left:39px;
+}
+#ourteam{
+    color:rgb(6, 6, 125);
+    font-weight:900;
+    font-size:40px;
+}
+#rocket-footer{
+ padding-left:50px;
+ font-size:100px;
+ color:black;
+}
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  #text::after {
+    content: '|';
+    animation: blink 1s infinite;
+  }
+
+#text{
+    font-size:44px;
+    color:black;
+    font-weight:900;
+    padding-left:15px;
+  }
+  #span-text{
+    font-size:44px;
+    color:darkblue;
+    font-weight:900;
+   
+  }
+

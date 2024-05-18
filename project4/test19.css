@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+
+  h1 {
+    font-size: 36px;
+  }
+  
+  .cursor-trail {
+  position:absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #007bff; /* Change color as needed */
+
+    transition:  0.3s ease-out;
+    z-index: -1; /* Ensure the trail stays behind other elements */
+  }
+  
+  #curso2{
+    
+    position:absolute;
+    height:30px;
+    width:30px;
+   color:blueviolet;
+   border-radius:50%;
+    background-color: rgb(126, 126, 142);
+    transition:0.3s ease-out;
+    z-index :-1;
+  }
